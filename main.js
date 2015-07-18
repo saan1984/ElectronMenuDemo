@@ -10,7 +10,6 @@ application.on('ready', function() {
     });
     mainWindow.loadUrl('file://' + __dirname + '/main.html');
     MyMenu.developMenus();
-    mainWindow.openDevTools();
     mainWindow.on('closed', function() {
         mainWindow = null;
     });
